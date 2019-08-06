@@ -1,0 +1,14 @@
+﻿<Window x:Class="Roman.Windows.ReferenceTableWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Reference Table Window" Height="260" Width="225"
+        WindowStartupLocation="Manual" 
+        Top="250" Left="350"
+        Closing="ReferenceTableWindow_Closing">
+    <StackPanel>
+        <Image Name="ImageViewer" Height="243" Width="198" Margin="-10" Source="C:\Users\Owner\source\repos\Roman Numeral Converter\Roman Numeral Calculator\Resources\Roman Numeral Table.png" Stretch="Uniform"/>
+    </StackPanel>
+</Window>
