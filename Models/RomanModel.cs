@@ -99,7 +99,7 @@ namespace Roman.Models
 
             for (int i = 0; i < _numeral.Length; i++)
             {
-                if (_numeral[i] != _numeral.Last() && toInt(_numeral[i]) < toInt(_numeral[i + 1]))
+                if (i != _numeral.Length-1 && toInt(_numeral[i]) < toInt(_numeral[i + 1]))
                 {
                     _decimal += (toInt(_numeral[i + 1]) - toInt(_numeral[i]));
                     i++;
